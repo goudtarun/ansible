@@ -48,14 +48,14 @@ Docker Compose automatically:
 ---
 ### Services Configuration
 
-### 1️⃣ WordPress Service
+### WordPress Service
 
 - Uses official `wordpress` image
 - Exposes port 80
 - Connects to MySQL using environment variables
 - Persists website data using Docker volume
 
-### 2️⃣ MySQL Service
+### MySQL Service
 
 - Uses official `mysql:8.0` image
 - Stores database data in Docker volume
@@ -107,6 +107,7 @@ docker compose down
 
 Author
 Tarun Goud
+
 DevOps Learner | Docker & Cloud Enthusiast
 
 
