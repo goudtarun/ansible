@@ -1,0 +1,13 @@
+---
+  - name : This is my first playbook
+    hosts : dev,test
+    tasks:
+      - name : We are going to create a user in dev and test servers
+        user :
+          name: tarun
+          state: present
+      
+      - name : Installing htppd server
+        apt :
+          name : nginx
+          state : present
