@@ -1,6 +1,6 @@
 ---
   - name : This is my first playbook
-    hosts : test
+    hosts : dev
     tasks:
       
       - name : Installing htppd server
